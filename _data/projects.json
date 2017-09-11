@@ -1,0 +1,24 @@
+[
+	{
+		"slug": "Projects",
+		"name": "Delicacy-selector",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/Lrisingr/Delicacy-selector",
+		"date": "Sep 2017",
+		"tags": ["IBM Watson","Twitter API","Yelp","Instagram","R"]
+	},
+	{
+		"name": "Techcrunch scrapy",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/Lrisingr/Scrapy",
+		"date": "Sep 2017",
+		"tags": ["Python","Django", "Scrapy"]
+	},
+	{
+		"name": "Whirr",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/Lrisingr/Whirr",
+		"date": "Aug 2017",
+		"tags": ["HTML","Javascript","Django","Python"]
+	}
+]

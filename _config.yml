@@ -1,0 +1,55 @@
+title: Sharavan's Homepage
+description: Questions and Answers to simple simple yet recurring issues
+author: Sharavan Koushik
+github: https://github.com/Lrisingr
+about: A python developer.Data Enthusiast. RPG Gamer.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/sharavankoushik"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/sharavan-koushik/"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/lrisingr"
+
+share:
+  twitter_username: sharavankoushik
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://lrisingr.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
