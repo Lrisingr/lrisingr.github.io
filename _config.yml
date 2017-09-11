@@ -5,7 +5,7 @@ github: https://github.com/Lrisingr
 about: A python developer.Data Enthusiast. RPG Gamer.
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+avatar_url: /static/img/Profile.png
 
 enableTags: true
 tagarray: []
@@ -29,8 +29,7 @@ social:
 
 share:
   twitter_username: sharavankoushik
-  fb_appid: 1749788565247320
-
+  
 urls:
     - text: About Me
       url: /about/
