@@ -4,11 +4,16 @@ title:  "Breaking a Toy Hash Function"
 date:   2016-04-26 04:19:22 +0700
 categories: [others]
 ---
-[Reference](http://twistedoakstudios.com/blog/Post4706_breaking-a-toy-hash-function)
-[bug-hunting-1-garbled-audio-from-end-to-end](http://twistedoakstudios.com/blog/Post7052_bug-hunting-1-garbled-audio-from-end-to-end)
-[deadlocks-in-practice-dont-hold-locks-while-notifying](http://twistedoakstudios.com/blog/Post8424_deadlocks-in-practice-dont-hold-locks-while-notifying)
-[impractical-experiments-1-representing-numbers-as-polynomials](http://twistedoakstudios.com/blog/Post6871_impractical-experiments-1-representing-numbers-as-polynomials)
-[searching-a-sorted-matrix-faster](http://twistedoakstudios.com/blog/Post5365_searching-a-sorted-matrix-faster)
+1. [breaking-a-toy-hash-function](http://twistedoakstudios.com/blog/Post4706_breaking-a-toy-hash-function)
+<br/>
+2. [bug-hunting-1-garbled-audio-from-end-to-end](http://twistedoakstudios.com/blog/Post7052_bug-hunting-1-garbled-audio-from-end-to-end)
+<br/>
+3. [deadlocks-in-practice-dont-hold-locks-while-notifying](http://twistedoakstudios.com/blog/Post8424_deadlocks-in-practice-dont-hold-locks-while-notifying)
+<br/>
+4. [impractical-experiments-1-representing-numbers-as-polynomials](http://twistedoakstudios.com/blog/Post6871_impractical-experiments-1-representing-numbers-as-polynomials)
+<br/>
+5. [searching-a-sorted-matrix-faster](http://twistedoakstudios.com/blog/Post5365_searching-a-sorted-matrix-faster)
+<br/>
 You probably know that hash functions can be used to protect passwords. The idea is that someone with access to the hash can’t figure out the corresponding password, but can use the hash to recognize that password when it is received. This is really, really useful in cases where attackers have access to your source code and your data.
 
 For example, consider WarCraft 3 maps (essentially little self-contained games). Maps specify terrain, units, code and etc but can’t access the internet, the file system, or even the current time. Anyone who has a map knows every detail of how it works, if they care to look. If you want to make a map that recognizes a password, perhaps to give yourself some sort of unfair admin powers as a joke, you’ll want to protect that password so that people who look inside the map won’t be able to play the joke on you.

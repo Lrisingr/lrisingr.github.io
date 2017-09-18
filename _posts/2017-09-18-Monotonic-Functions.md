@@ -7,8 +7,8 @@ use_math: true
 ---
 Functions that either increase or decrease over their lifetime
 ex. logx ,
-[Please , follow the link to understand monotonic functions](https://www.youtube.com/watch?v=6-SrUHIVOAA)
-
+[](https://www.youtube.com/watch?v=6-SrUHIVOAA)
+[![Please , follow the link to understand monotonic functions](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch??v=6-SrUHIVOAA)
 As mentioned,
 
 #### Theorem
