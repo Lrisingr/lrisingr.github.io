@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Breaking a Toy Hash Function"
-date:   2016-04-26 04:19:22 +0700
+date:   2017-09-14 04:39:22 +0700
 categories: [others]
 ---
 1. [breaking-a-toy-hash-function](http://twistedoakstudios.com/blog/Post4706_breaking-a-toy-hash-function)
